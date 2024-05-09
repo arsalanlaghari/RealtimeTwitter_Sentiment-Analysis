@@ -1,9 +1,3 @@
-# import os
-# os.environ['PYSPARK_SUBMIT_ARGS'] = '--packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.0.2 pyspark-shell'
-
-# import findspark
-# findspark.init('/Users/lorenapersonel/Downloads/spark-3.2.1-bin-hadoop3.2-scala2.13')
-
 from pyspark.sql import functions as F
 from pyspark.sql.functions import explode
 from pyspark.sql.functions import split
