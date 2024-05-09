@@ -4,13 +4,13 @@ import logging
 
 """API ACCESS KEYS"""
 
-consumerKey = "XXXX"
-consumerSecret = "XXXX"
-accessToken = "XXX-XXX"
-accessTokenSecret = "XXXX"
+consumerKey = ""
+consumerSecret = ""
+accessToken = ""
+accessTokenSecret = ""
 
 producer = KafkaProducer(bootstrap_servers='localhost:9092')
-search_term = 'Bitcoin'
+search_term = 'Pakistan Stock Exchange'
 topic_name = 'twitter'
 
 
